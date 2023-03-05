@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+  }
+  
+  .input_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    width: 700px;
+    background-color: #e2e2e2;
+  }
+  
+  .inputs input {
+    width: 300px;
+  }
+  
+  .other_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 700px;
+    gap: 2px;
+  }
+  
+  .other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: cyan;
+  }
+  
+  .copyright {
+    margin-top: 32px;
+  }
